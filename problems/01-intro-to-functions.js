@@ -13,23 +13,27 @@ function getGreeting() { // DO NOT MODIFY THIS FUNCTION
 
 // 1. Define a variable called greeting and set the value to the return value of
 //    the getGreeting function above
-// Your code here 
-
+// Your code here
+let greeting = getGreeting();
+// console.log(greeting)
 
 
 // 2. Update the function below so that the fruit variable evaluates to a string
 //    of 'orange'
 function getFruit() {
-  return 'apple';
+  return 'orange';
 }
 
 let fruit = getFruit(); // DO NOT MODIFY THIS LINE OF CODE
-
+console.log(fruit);
 
 
 // 3. Define a function called getSingleDigitInteger that returns any integer
 //    from 0 to 9
-// Your code here 
+// Your code here
+function getSingleDigitInteger() {
+  return 7; 
+}
 
 // Run the following command in the terminal to run this file if you want
 // print something to test:
